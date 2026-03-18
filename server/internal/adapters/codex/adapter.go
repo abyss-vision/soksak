@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"strings"
 
-	"abyss-view/pkg/adapter"
+	"soksak/pkg/adapter"
 )
 
 // Adapter implements adapter.ServerAdapter for the OpenAI Codex CLI.

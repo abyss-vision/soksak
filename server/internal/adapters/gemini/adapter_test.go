@@ -3,8 +3,8 @@ package gemini_test
 import (
 	"testing"
 
-	"abyss-view/internal/adapters/gemini"
-	"abyss-view/pkg/adapter"
+	"soksak/internal/adapters/gemini"
+	"soksak/pkg/adapter"
 )
 
 func TestGeminiAdapter_Name(t *testing.T) {

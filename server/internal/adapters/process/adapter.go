@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"abyss-view/pkg/adapter"
+	"soksak/pkg/adapter"
 )
 
 // ProcessAdapter implements adapter.ServerAdapter for generic command-based

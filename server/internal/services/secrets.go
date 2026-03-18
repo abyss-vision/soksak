@@ -15,8 +15,8 @@ import (
 	"github.com/google/uuid"
 	"github.com/jmoiron/sqlx"
 
-	"abyss-view/internal/domain"
-	"abyss-view/internal/middleware"
+	"soksak/internal/domain"
+	"soksak/internal/middleware"
 )
 
 // encryptAESGCM encrypts plaintext with the given 32-byte AES-256-GCM key.

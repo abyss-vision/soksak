@@ -10,9 +10,9 @@ import (
 	"github.com/go-chi/chi/v5"
 	"github.com/google/uuid"
 
-	"abyss-view/internal/middleware"
-	"abyss-view/internal/services"
-	"abyss-view/internal/storage"
+	"soksak/internal/middleware"
+	"soksak/internal/services"
+	"soksak/internal/storage"
 )
 
 const maxUploadBytes = 50 * 1024 * 1024 // 50 MB

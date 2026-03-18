@@ -3,8 +3,8 @@ package openclaw_test
 import (
 	"testing"
 
-	"abyss-view/internal/adapters/openclaw"
-	"abyss-view/pkg/adapter"
+	"soksak/internal/adapters/openclaw"
+	"soksak/pkg/adapter"
 )
 
 func TestOpenClawAdapter_Name(t *testing.T) {

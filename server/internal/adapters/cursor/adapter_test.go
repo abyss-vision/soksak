@@ -3,8 +3,8 @@ package cursor_test
 import (
 	"testing"
 
-	"abyss-view/internal/adapters/cursor"
-	"abyss-view/pkg/adapter"
+	"soksak/internal/adapters/cursor"
+	"soksak/pkg/adapter"
 )
 
 func TestCursorAdapter_Name(t *testing.T) {

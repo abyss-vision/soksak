@@ -10,9 +10,9 @@ import (
 	"github.com/google/uuid"
 	"github.com/jmoiron/sqlx"
 
-	"abyss-view/internal/domain"
-	"abyss-view/internal/middleware"
-	"abyss-view/internal/realtime"
+	"soksak/internal/domain"
+	"soksak/internal/middleware"
+	"soksak/internal/realtime"
 )
 
 // IssueService handles CRUD operations and state transitions for issues.

@@ -10,7 +10,7 @@ import (
 	"github.com/google/uuid"
 	"github.com/jmoiron/sqlx"
 
-	"abyss-view/internal/middleware"
+	"soksak/internal/middleware"
 )
 
 // InstanceSettings represents the singleton settings row.

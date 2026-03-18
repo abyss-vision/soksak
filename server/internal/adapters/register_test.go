@@ -3,8 +3,8 @@ package adapters
 import (
 	"testing"
 
-	processadapter "abyss-view/internal/adapters/process"
-	"abyss-view/pkg/adapter"
+	processadapter "soksak/internal/adapters/process"
+	"soksak/pkg/adapter"
 )
 
 func TestRegisterAll(t *testing.T) {

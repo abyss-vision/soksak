@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strings"
 
-	"abyss-view/internal/auth"
+	"soksak/internal/auth"
 	"github.com/jmoiron/sqlx"
 )
 

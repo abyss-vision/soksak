@@ -3,7 +3,7 @@ package claude_test
 import (
 	"testing"
 
-	"abyss-view/internal/adapters/claude"
+	"soksak/internal/adapters/claude"
 )
 
 func TestClaudeAdapter_SupportedModels(t *testing.T) {

@@ -3,7 +3,7 @@ package cursor_test
 import (
 	"testing"
 
-	"abyss-view/internal/adapters/cursor"
+	"soksak/internal/adapters/cursor"
 )
 
 func TestCursorAdapter_SupportedModels(t *testing.T) {

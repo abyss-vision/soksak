@@ -3,7 +3,7 @@ package services
 import (
 	"fmt"
 
-	"abyss-view/internal/domain"
+	"soksak/internal/domain"
 )
 
 // validTransitions maps each issue status to the set of statuses it can transition to.

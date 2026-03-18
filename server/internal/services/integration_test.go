@@ -6,9 +6,9 @@ import (
 
 	"github.com/jmoiron/sqlx"
 
-	"abyss-view/internal/db"
-	"abyss-view/internal/services"
-	"abyss-view/internal/testutil"
+	"soksak/internal/db"
+	"soksak/internal/services"
+	"soksak/internal/testutil"
 )
 
 // setupDB starts a test DB and runs all migrations.

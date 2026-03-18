@@ -9,8 +9,8 @@ import (
 	"github.com/google/uuid"
 	"github.com/jmoiron/sqlx"
 
-	"abyss-view/internal/domain"
-	"abyss-view/internal/middleware"
+	"soksak/internal/domain"
+	"soksak/internal/middleware"
 )
 
 // CostService handles recording and querying AI inference costs.

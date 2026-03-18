@@ -1,4 +1,4 @@
-module abyss-view
+module soksak
 
 go 1.25.0
 

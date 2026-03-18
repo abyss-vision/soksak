@@ -11,8 +11,8 @@ files:
   - package.json
 
 extraResources:
-  - from: ../server/abyss-view-server
-    to: abyss-view-server
+  - from: ../server/soksak-server
+    to: soksak-server
     filter:
       - "**/*"
 

@@ -10,15 +10,15 @@ import (
 	"github.com/nicksnyder/go-i18n/v2/i18n"
 	"golang.org/x/text/language"
 
-	apii18n "abyss-view/internal/i18n"
-	"abyss-view/internal/adapters/process"
-	"abyss-view/internal/auth"
-	"abyss-view/internal/db"
-	"abyss-view/internal/middleware"
-	"abyss-view/internal/realtime"
-	"abyss-view/internal/routes"
-	"abyss-view/internal/services"
-	"abyss-view/internal/storage"
+	apii18n "soksak/internal/i18n"
+	"soksak/internal/adapters/process"
+	"soksak/internal/auth"
+	"soksak/internal/db"
+	"soksak/internal/middleware"
+	"soksak/internal/realtime"
+	"soksak/internal/routes"
+	"soksak/internal/services"
+	"soksak/internal/storage"
 )
 
 // App holds all application dependencies and the HTTP router.

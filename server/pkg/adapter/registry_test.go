@@ -3,7 +3,7 @@ package adapter_test
 import (
 	"testing"
 
-	"abyss-view/pkg/adapter"
+	"soksak/pkg/adapter"
 )
 
 // stubAdapter is a minimal ServerAdapter for test use.

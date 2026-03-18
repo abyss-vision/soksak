@@ -3,8 +3,8 @@ package opencode_test
 import (
 	"testing"
 
-	"abyss-view/internal/adapters/opencode"
-	"abyss-view/pkg/adapter"
+	"soksak/internal/adapters/opencode"
+	"soksak/pkg/adapter"
 )
 
 func TestOpenCodeAdapter_Name(t *testing.T) {

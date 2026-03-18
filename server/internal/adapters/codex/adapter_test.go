@@ -3,8 +3,8 @@ package codex_test
 import (
 	"testing"
 
-	"abyss-view/internal/adapters/codex"
-	"abyss-view/pkg/adapter"
+	"soksak/internal/adapters/codex"
+	"soksak/pkg/adapter"
 )
 
 func TestCodexAdapter_Name(t *testing.T) {

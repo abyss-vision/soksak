@@ -5,8 +5,8 @@ import (
 
 	"github.com/go-chi/chi/v5"
 
-	"abyss-view/internal/middleware"
-	"abyss-view/internal/services"
+	"soksak/internal/middleware"
+	"soksak/internal/services"
 )
 
 // SidebarBadgesHandler returns an http.HandlerFunc for GET /sidebar-badges.

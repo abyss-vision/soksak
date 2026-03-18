@@ -3,8 +3,8 @@ package pi_test
 import (
 	"testing"
 
-	"abyss-view/internal/adapters/pi"
-	"abyss-view/pkg/adapter"
+	"soksak/internal/adapters/pi"
+	"soksak/pkg/adapter"
 )
 
 func TestPiAdapter_Name(t *testing.T) {

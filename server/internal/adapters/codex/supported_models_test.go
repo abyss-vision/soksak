@@ -3,7 +3,7 @@ package codex_test
 import (
 	"testing"
 
-	"abyss-view/internal/adapters/codex"
+	"soksak/internal/adapters/codex"
 )
 
 func TestCodexAdapter_SupportedModels(t *testing.T) {

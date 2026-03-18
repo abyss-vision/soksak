@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
     host: '0.0.0.0',
-    allowedHosts: [process.env.DOMAIN || 'abyss-view.test'],
+    allowedHosts: [process.env.DOMAIN || 'soksak.test'],
   },
 })

@@ -3,8 +3,8 @@ package http_test
 import (
 	"testing"
 
-	httpadapter "abyss-view/internal/adapters/http"
-	"abyss-view/pkg/adapter"
+	httpadapter "soksak/internal/adapters/http"
+	"soksak/pkg/adapter"
 )
 
 func TestHTTPAdapter_Name(t *testing.T) {

@@ -6,8 +6,8 @@ import (
 
 	"github.com/go-chi/chi/v5"
 
-	"abyss-view/internal/middleware"
-	"abyss-view/internal/services"
+	"soksak/internal/middleware"
+	"soksak/internal/services"
 )
 
 // InstanceSettingsRoutes returns a chi.Router for GET/PATCH /api/instance-settings.

@@ -8,7 +8,7 @@ import (
 	"syscall"
 	"time"
 
-	"abyss-view/internal/adapters/process"
+	"soksak/internal/adapters/process"
 )
 
 // HandleClientMessage dispatches an incoming raw WebSocket frame from client.

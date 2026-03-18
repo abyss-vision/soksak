@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"abyss-view/internal/domain"
+	"soksak/internal/domain"
 )
 
 // TestResolveCommunicationLanguage verifies the priority chain:

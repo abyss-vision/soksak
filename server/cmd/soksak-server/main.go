@@ -7,9 +7,9 @@ import (
 	"github.com/jmoiron/sqlx"
 	"golang.org/x/text/language"
 
-	apii18n "abyss-view/internal/i18n"
-	"abyss-view/internal/db"
-	"abyss-view/internal/server"
+	apii18n "soksak/internal/i18n"
+	"soksak/internal/db"
+	"soksak/internal/server"
 )
 
 func main() {

@@ -9,9 +9,9 @@ import (
 	"github.com/google/uuid"
 	"github.com/jmoiron/sqlx"
 
-	"abyss-view/internal/domain"
-	"abyss-view/internal/middleware"
-	"abyss-view/internal/realtime"
+	"soksak/internal/domain"
+	"soksak/internal/middleware"
+	"soksak/internal/realtime"
 )
 
 // ApprovalService handles CRUD and resolution operations for approvals.

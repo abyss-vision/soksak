@@ -8,7 +8,7 @@ import (
 
 	"github.com/jmoiron/sqlx"
 
-	"abyss-view/internal/middleware"
+	"soksak/internal/middleware"
 )
 
 // DashboardService handles dashboard and sidebar badge aggregations.

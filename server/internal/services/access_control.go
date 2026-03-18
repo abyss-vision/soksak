@@ -9,7 +9,7 @@ import (
 	"github.com/google/uuid"
 	"github.com/jmoiron/sqlx"
 
-	"abyss-view/internal/middleware"
+	"soksak/internal/middleware"
 )
 
 // PermissionGrant represents a row in principal_permission_grants.

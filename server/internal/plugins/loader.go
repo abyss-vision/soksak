@@ -9,7 +9,7 @@ import (
 	hclog "github.com/hashicorp/go-hclog"
 	goplugin "github.com/hashicorp/go-plugin"
 
-	"abyss-view/pkg/plugin"
+	"soksak/pkg/plugin"
 )
 
 // LoadedPlugin represents a running plugin process managed by go-plugin.

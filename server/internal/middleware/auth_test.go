@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"abyss-view/internal/auth"
+	"soksak/internal/auth"
 	"github.com/golang-jwt/jwt/v5"
 )
 

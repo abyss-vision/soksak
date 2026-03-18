@@ -9,8 +9,8 @@ import (
 	"github.com/google/uuid"
 	"github.com/jmoiron/sqlx"
 
-	"abyss-view/internal/domain"
-	"abyss-view/internal/middleware"
+	"soksak/internal/domain"
+	"soksak/internal/middleware"
 )
 
 // BudgetService handles budget policy CRUD and incident enforcement.

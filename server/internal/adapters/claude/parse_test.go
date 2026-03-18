@@ -3,7 +3,7 @@ package claude_test
 import (
 	"testing"
 
-	"abyss-view/internal/adapters/claude"
+	"soksak/internal/adapters/claude"
 )
 
 func TestParseClaudeStreamJSON_Basic(t *testing.T) {

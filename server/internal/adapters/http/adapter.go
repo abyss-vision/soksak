@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"strings"
 
-	"abyss-view/pkg/adapter"
+	"soksak/pkg/adapter"
 )
 
 // Adapter implements adapter.ServerAdapter for generic HTTP webhook invocations.

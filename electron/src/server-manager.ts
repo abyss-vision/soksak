@@ -27,9 +27,9 @@ export class ServerManager {
 
   private getBinaryPath(): string {
     if (app.isPackaged) {
-      return path.join(process.resourcesPath, 'abyss-view-server');
+      return path.join(process.resourcesPath, 'soksak-server');
     }
-    return path.join(app.getAppPath(), '..', 'server', 'abyss-view-server');
+    return path.join(app.getAppPath(), '..', 'server', 'soksak-server');
   }
 
   private spawnProcess(binaryPath: string): void {

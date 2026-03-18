@@ -8,8 +8,8 @@ import (
 	"github.com/google/uuid"
 	"github.com/jmoiron/sqlx"
 
-	"abyss-view/internal/domain"
-	"abyss-view/internal/middleware"
+	"soksak/internal/domain"
+	"soksak/internal/middleware"
 )
 
 // CompanyService handles CRUD operations for companies.

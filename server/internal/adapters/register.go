@@ -1,16 +1,16 @@
 package adapters
 
 import (
-	"abyss-view/internal/adapters/claude"
-	"abyss-view/internal/adapters/codex"
-	"abyss-view/internal/adapters/cursor"
-	"abyss-view/internal/adapters/gemini"
-	httpadapter "abyss-view/internal/adapters/http"
-	"abyss-view/internal/adapters/openclaw"
-	"abyss-view/internal/adapters/opencode"
-	"abyss-view/internal/adapters/pi"
-	processadapter "abyss-view/internal/adapters/process"
-	"abyss-view/pkg/adapter"
+	"soksak/internal/adapters/claude"
+	"soksak/internal/adapters/codex"
+	"soksak/internal/adapters/cursor"
+	"soksak/internal/adapters/gemini"
+	httpadapter "soksak/internal/adapters/http"
+	"soksak/internal/adapters/openclaw"
+	"soksak/internal/adapters/opencode"
+	"soksak/internal/adapters/pi"
+	processadapter "soksak/internal/adapters/process"
+	"soksak/pkg/adapter"
 )
 
 // RegisterAll registers all built-in AI agent adapters into the provided registry.

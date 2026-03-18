@@ -1,4 +1,4 @@
-// Package plugins implements the abyss-view plugin subsystem: loading,
+// Package plugins implements the soksak plugin subsystem: loading,
 // registry, event delivery, state persistence, job scheduling, and Node.js bridging.
 package plugins
 

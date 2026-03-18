@@ -3,7 +3,7 @@ package openclaw_test
 import (
 	"testing"
 
-	"abyss-view/internal/adapters/openclaw"
+	"soksak/internal/adapters/openclaw"
 )
 
 func TestOpenClawAdapter_SupportedModels(t *testing.T) {

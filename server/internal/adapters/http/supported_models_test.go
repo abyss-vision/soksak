@@ -3,7 +3,7 @@ package http_test
 import (
 	"testing"
 
-	httpadapter "abyss-view/internal/adapters/http"
+	httpadapter "soksak/internal/adapters/http"
 )
 
 func TestHTTPAdapter_SupportedModels(t *testing.T) {

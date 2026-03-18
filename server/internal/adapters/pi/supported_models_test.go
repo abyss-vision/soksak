@@ -3,7 +3,7 @@ package pi_test
 import (
 	"testing"
 
-	"abyss-view/internal/adapters/pi"
+	"soksak/internal/adapters/pi"
 )
 
 func TestPiAdapter_SupportedModels(t *testing.T) {

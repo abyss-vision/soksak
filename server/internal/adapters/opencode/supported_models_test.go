@@ -3,7 +3,7 @@ package opencode_test
 import (
 	"testing"
 
-	"abyss-view/internal/adapters/opencode"
+	"soksak/internal/adapters/opencode"
 )
 
 func TestOpenCodeAdapter_SupportedModels(t *testing.T) {

@@ -1,4 +1,4 @@
-// Package plugin defines the SDK interfaces and types for the abyss-view plugin system.
+// Package plugin defines the SDK interfaces and types for the soksak plugin system.
 // Plugins communicate with the host via the hashicorp/go-plugin gRPC transport.
 package plugin
 
@@ -41,7 +41,7 @@ type Event struct {
 	Timestamp time.Time
 }
 
-// PluginInterface is the interface that all abyss-view plugins must implement.
+// PluginInterface is the interface that all soksak plugins must implement.
 // It is used both as the Go interface and as the hashicorp/go-plugin RPC contract.
 type PluginInterface interface {
 	// GetInfo returns metadata describing the plugin.

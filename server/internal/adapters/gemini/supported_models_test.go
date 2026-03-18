@@ -3,7 +3,7 @@ package gemini_test
 import (
 	"testing"
 
-	"abyss-view/internal/adapters/gemini"
+	"soksak/internal/adapters/gemini"
 )
 
 func TestGeminiAdapter_SupportedModels(t *testing.T) {

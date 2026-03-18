@@ -9,8 +9,8 @@ import (
 
 	"nhooyr.io/websocket"
 
-	"abyss-view/internal/adapters/process"
-	"abyss-view/internal/auth"
+	"soksak/internal/adapters/process"
+	"soksak/internal/auth"
 )
 
 const (

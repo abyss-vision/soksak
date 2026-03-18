@@ -7,7 +7,7 @@ import (
 
 	"github.com/nicksnyder/go-i18n/v2/i18n"
 
-	apii18n "abyss-view/internal/i18n"
+	apii18n "soksak/internal/i18n"
 )
 
 // AppError is a structured application error with HTTP status, a machine-readable code,

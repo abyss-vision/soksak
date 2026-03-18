@@ -3,8 +3,8 @@ package claude_test
 import (
 	"testing"
 
-	"abyss-view/internal/adapters/claude"
-	"abyss-view/pkg/adapter"
+	"soksak/internal/adapters/claude"
+	"soksak/pkg/adapter"
 )
 
 func TestClaudeAdapter_Name(t *testing.T) {

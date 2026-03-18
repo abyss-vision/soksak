@@ -3,8 +3,8 @@ package process_test
 import (
 	"testing"
 
-	"abyss-view/internal/adapters/process"
-	"abyss-view/pkg/adapter"
+	"soksak/internal/adapters/process"
+	"soksak/pkg/adapter"
 )
 
 func TestProcessAdapter_Name(t *testing.T) {

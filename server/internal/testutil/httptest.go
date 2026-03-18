@@ -6,7 +6,7 @@ import (
 	"github.com/go-chi/chi/v5"
 	"github.com/jmoiron/sqlx"
 
-	"abyss-view/internal/server"
+	"soksak/internal/server"
 )
 
 // NewTestRouter creates an App with a test config and returns its router for use in HTTP tests.

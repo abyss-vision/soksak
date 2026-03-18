@@ -6,7 +6,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"abyss-view/internal/cli"
+	"soksak/internal/cli"
 )
 
 var version = "dev"

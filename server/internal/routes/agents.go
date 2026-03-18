@@ -8,8 +8,8 @@ import (
 
 	"github.com/go-chi/chi/v5"
 
-	"abyss-view/internal/middleware"
-	"abyss-view/internal/services"
+	"soksak/internal/middleware"
+	"soksak/internal/services"
 )
 
 // AgentRoutes returns a chi.Router with CRUD and lifecycle routes for agents.
