@@ -1,0 +1,8 @@
+{
+  "error.internal": "Internal server error",
+  "error.not_found": "Resource not found",
+  "error.forbidden": "Access denied",
+  "error.validation": "Validation error: {{.Details}}",
+  "error.method_not_allowed": "Method not allowed",
+  "error.conflict": "Resource conflict"
+}

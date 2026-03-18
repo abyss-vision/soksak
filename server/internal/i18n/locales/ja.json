@@ -1,0 +1,8 @@
+{
+  "error.internal": "内部サーバーエラー",
+  "error.not_found": "リソースが見つかりません",
+  "error.forbidden": "アクセスが拒否されました",
+  "error.validation": "バリデーションエラー: {{.Details}}",
+  "error.method_not_allowed": "許可されていないメソッドです",
+  "error.conflict": "リソースの競合"
+}

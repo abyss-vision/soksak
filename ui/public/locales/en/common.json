@@ -1,0 +1,18 @@
+{
+  "app": { "title": "Abyss View" },
+  "nav": { "issues": "Issues", "agents": "Agents", "projects": "Projects", "settings": "Settings", "dashboard": "Dashboard" },
+  "status": { "backlog": "Backlog", "todo": "To Do", "in_progress": "In Progress", "in_review": "In Review", "done": "Done", "cancelled": "Cancelled", "blocked": "Blocked" },
+  "priority": { "critical": "Critical", "high": "High", "medium": "Medium", "low": "Low", "none": "None" },
+  "buttons": { "save": "Save", "cancel": "Cancel", "delete": "Delete", "create": "Create", "edit": "Edit" },
+  "common": { "save": "Save", "cancel": "Cancel", "saving": "Saving…", "loading": "Loading…" },
+  "kanban": {
+    "boardSettings": "Board Settings",
+    "settings": "Settings",
+    "columnOrder": "Column Order & Visibility",
+    "moveUp": "Move up",
+    "moveDown": "Move down",
+    "swimLanes": "Swim Lanes",
+    "swimLanesDesc": "Group issues by assignee",
+    "unassigned": "Unassigned"
+  }
+}

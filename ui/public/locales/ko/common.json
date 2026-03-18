@@ -1,0 +1,18 @@
+{
+  "app": { "title": "Abyss View" },
+  "nav": { "issues": "이슈", "agents": "에이전트", "projects": "프로젝트", "settings": "설정", "dashboard": "대시보드" },
+  "status": { "backlog": "백로그", "todo": "할 일", "in_progress": "진행 중", "in_review": "리뷰 중", "done": "완료", "cancelled": "취소됨", "blocked": "차단됨" },
+  "priority": { "critical": "긴급", "high": "높음", "medium": "보통", "low": "낮음", "none": "없음" },
+  "buttons": { "save": "저장", "cancel": "취소", "delete": "삭제", "create": "생성", "edit": "편집" },
+  "common": { "save": "저장", "cancel": "취소", "saving": "저장 중…", "loading": "불러오는 중…" },
+  "kanban": {
+    "boardSettings": "보드 설정",
+    "settings": "설정",
+    "columnOrder": "컬럼 순서 및 표시",
+    "moveUp": "위로 이동",
+    "moveDown": "아래로 이동",
+    "swimLanes": "수영 레인",
+    "swimLanesDesc": "담당자별로 이슈 그룹화",
+    "unassigned": "미배정"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "app": { "title": "Abyss View" },
+  "nav": { "issues": "イシュー", "agents": "エージェント", "projects": "プロジェクト", "settings": "設定", "dashboard": "ダッシュボード" },
+  "status": { "backlog": "バックログ", "todo": "To Do", "in_progress": "進行中", "in_review": "レビュー中", "done": "完了", "cancelled": "キャンセル", "blocked": "ブロック" },
+  "priority": { "critical": "緊急", "high": "高", "medium": "中", "low": "低", "none": "なし" },
+  "buttons": { "save": "保存", "cancel": "キャンセル", "delete": "削除", "create": "作成", "edit": "編集" },
+  "common": { "save": "保存", "cancel": "キャンセル", "saving": "保存中…", "loading": "読み込み中…" },
+  "kanban": {
+    "boardSettings": "ボード設定",
+    "settings": "設定",
+    "columnOrder": "列の順序と表示",
+    "moveUp": "上に移動",
+    "moveDown": "下に移動",
+    "swimLanes": "スイムレーン",
+    "swimLanesDesc": "担当者でイシューをグループ化",
+    "unassigned": "未割り当て"
+  }
+}

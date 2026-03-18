@@ -1,0 +1,7 @@
+{
+  "communicationLanguage": "Communication Language",
+  "communicationLanguageDescription": "Language AI agents use to respond",
+  "followUiLanguage": "Follow UI Language",
+  "uiLanguage": "UI Language",
+  "uiLanguageDescription": "Language for the application interface"
+}

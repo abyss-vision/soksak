@@ -1,0 +1,7 @@
+{
+  "communicationLanguage": "AI 응답 언어",
+  "communicationLanguageDescription": "AI 에이전트가 응답할 언어",
+  "followUiLanguage": "UI 언어 따라가기",
+  "uiLanguage": "UI 언어",
+  "uiLanguageDescription": "앱 인터페이스 언어"
+}
