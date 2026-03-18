@@ -1,0 +1,60 @@
+appId: com.abyssview.app
+productName: Abyss View
+copyright: Copyright 2024 Abyss View
+
+directories:
+  buildResources: assets
+  output: dist-electron
+
+files:
+  - dist/**/*
+  - package.json
+
+extraResources:
+  - from: ../server/abyss-view-server
+    to: abyss-view-server
+    filter:
+      - "**/*"
+
+mac:
+  category: public.app-category.developer-tools
+  hardenedRuntime: true
+  gatekeeperAssess: false
+  entitlements: build/entitlements.mac.plist
+  entitlementsInherit: build/entitlements.mac.plist
+  target:
+    - target: dmg
+      arch:
+        - x64
+        - arm64
+    - target: zip
+      arch:
+        - x64
+        - arm64
+
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+        - ia32
+
+linux:
+  target:
+    - target: AppImage
+      arch:
+        - x64
+    - target: deb
+      arch:
+        - x64
+  category: Development
+
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+
+publish:
+  provider: github
+  releaseType: release
