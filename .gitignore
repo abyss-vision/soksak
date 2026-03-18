@@ -13,6 +13,6 @@ server/.do/
 electron/.do/
 ui/.do/
 CLAUDE.md
-soksak-server
-soksak-cli
+/server/soksak-server
+/server/soksak-cli
 tsconfig.tsbuildinfo
