@@ -9,7 +9,7 @@ export class TrayManager {
     const iconPath = this.getIconPath();
     const icon = nativeImage.createFromPath(iconPath);
     this.tray = new Tray(icon.isEmpty() ? nativeImage.createEmpty() : icon);
-    this.tray.setToolTip('Abyss View');
+    this.tray.setToolTip('SokSak');
     this.updateMenu();
 
     this.tray.on('double-click', () => this.showMainWindow());
@@ -21,8 +21,8 @@ export class TrayManager {
     if (this.tray) {
       this.tray.setToolTip(
         count > 0
-          ? `Abyss View — ${count} agent${count !== 1 ? 's' : ''} running`
-          : 'Abyss View'
+          ? `SokSak — ${count} agent${count !== 1 ? 's' : ''} running`
+          : 'SokSak'
       );
     }
   }
@@ -51,7 +51,7 @@ export class TrayManager {
         : 'No agents running';
 
     const menu = Menu.buildFromTemplate([
-      new MenuItem({ label: 'Abyss View', enabled: false }),
+      new MenuItem({ label: 'SokSak', enabled: false }),
       new MenuItem({ type: 'separator' }),
       new MenuItem({ label: statusLabel, enabled: false }),
       new MenuItem({ type: 'separator' }),

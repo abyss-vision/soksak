@@ -1,6 +1,6 @@
-appId: com.abyssview.app
-productName: Abyss View
-copyright: Copyright 2024 Abyss View
+appId: com.soksak.app
+productName: SokSak
+copyright: Copyright 2024 SokSak
 
 directories:
   buildResources: assets

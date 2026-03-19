@@ -1,5 +1,5 @@
 {
-  "app": { "title": "Abyss View" },
+  "app": { "title": "SokSak" },
   "nav": { "issues": "イシュー", "agents": "エージェント", "projects": "プロジェクト", "settings": "設定", "dashboard": "ダッシュボード" },
   "status": { "backlog": "バックログ", "todo": "To Do", "in_progress": "進行中", "in_review": "レビュー中", "done": "完了", "cancelled": "キャンセル", "blocked": "ブロック" },
   "priority": { "critical": "緊急", "high": "高", "medium": "中", "low": "低", "none": "なし" },

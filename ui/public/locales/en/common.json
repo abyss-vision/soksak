@@ -1,5 +1,5 @@
 {
-  "app": { "title": "Abyss View" },
+  "app": { "title": "SokSak" },
   "nav": { "issues": "Issues", "agents": "Agents", "projects": "Projects", "settings": "Settings", "dashboard": "Dashboard" },
   "status": { "backlog": "Backlog", "todo": "To Do", "in_progress": "In Progress", "in_review": "In Review", "done": "Done", "cancelled": "Cancelled", "blocked": "Blocked" },
   "priority": { "critical": "Critical", "high": "High", "medium": "Medium", "low": "Low", "none": "None" },
