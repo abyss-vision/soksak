@@ -30,6 +30,7 @@ func main() {
 	root.AddCommand(cli.PluginCmd())
 	root.AddCommand(cli.AuthBootstrapCmd())
 	root.AddCommand(cli.WorktreeCmd())
+	root.AddCommand(cli.MigrateCmd())
 
 	if err := root.Execute(); err != nil {
 		fmt.Fprintln(os.Stderr, err)

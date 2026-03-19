@@ -17,3 +17,4 @@ CLAUDE.md
 /server/soksak-cli
 tsconfig.tsbuildinfo
 .DS_Store
+.history/

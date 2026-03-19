@@ -21,6 +21,7 @@ services:
       DOMAIN: soksak-api.test
       PORT: "3200"
       DATABASE_URL: postgres://soksak:soksak@soksak-postgres-1:5432/soksak?sslmode=disable
+      DEPLOYMENT_MODE: local_trusted
       CORS_ORIGINS: https://soksak.test
     volumes:
       - ./server:/app
