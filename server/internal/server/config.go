@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"os"
 	"strconv"
+	"strings"
 )
 
 // Config holds all server configuration loaded from environment variables.
@@ -15,6 +16,7 @@ type Config struct {
 	DeploymentMode string
 	JWTSecret      string
 	StorageBaseDir string
+	CORSOrigins    []string
 }
 
 // LoadConfig reads configuration from environment variables with sensible defaults.
@@ -28,6 +30,7 @@ func LoadConfig() (*Config, error) {
 		DeploymentMode: getEnv("DEPLOYMENT_MODE", "dev"),
 		JWTSecret:      os.Getenv("SOKSAK_AGENT_JWT_SECRET"),
 		StorageBaseDir: getEnv("STORAGE_BASE_DIR", "./data/storage"),
+		CORSOrigins:    parseCORSOrigins(os.Getenv("CORS_ORIGINS")),
 	}
 	return cfg, nil
 }
@@ -42,6 +45,17 @@ func getEnv(key, fallback string) string {
 		return v
 	}
 	return fallback
+}
+
+func parseCORSOrigins(raw string) []string {
+	if raw == "" {
+		return []string{"*"}
+	}
+	origins := strings.Split(raw, ",")
+	for i := range origins {
+		origins[i] = strings.TrimSpace(origins[i])
+	}
+	return origins
 }
 
 func getEnvBool(key string, fallback bool) bool {

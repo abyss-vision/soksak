@@ -6,6 +6,7 @@ import (
 	"net/http"
 
 	"github.com/go-chi/chi/v5"
+	"github.com/go-chi/cors"
 	"github.com/jmoiron/sqlx"
 	"github.com/nicksnyder/go-i18n/v2/i18n"
 	"golang.org/x/text/language"
@@ -52,6 +53,14 @@ func NewAppWithDeps(cfg *Config, database *sqlx.DB, bundle *i18n.Bundle, hub *re
 	jwtValidator := auth.NewAgentJWTValidator(cfg.JWTSecret)
 
 	r := chi.NewRouter()
+	r.Use(cors.Handler(cors.Options{
+		AllowedOrigins:   cfg.CORSOrigins,
+		AllowedMethods:   []string{"GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"},
+		AllowedHeaders:   []string{"Accept", "Authorization", "Content-Type", "X-Soksak-Run-Id"},
+		ExposedHeaders:   []string{"Link"},
+		AllowCredentials: true,
+		MaxAge:           300,
+	}))
 	r.Use(middleware.RequestLogger)
 	r.Use(middleware.ErrorHandler)
 	r.Use(apii18n.LocaleMiddleware(bundle))
